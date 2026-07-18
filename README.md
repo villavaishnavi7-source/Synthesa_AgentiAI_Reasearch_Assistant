@@ -173,10 +173,8 @@ Synthesa
 │
 ├── Synthesa.ipynb
 ├── README.md
-├── requirements.txt
-├── assets/
 ├── sample_output/
-└── images/
+
 ```
 
 ---
