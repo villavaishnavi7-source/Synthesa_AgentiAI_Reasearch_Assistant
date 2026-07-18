@@ -178,15 +178,133 @@ Synthesa
 ```
 
 ---
+# 💬 Example Queries
 
-# 🎯 Example Queries
+Synthesa supports natural language interactions with research papers through its AI agent. Below are some example queries demonstrating its capabilities.
 
-- Find the top research papers on Vision Transformers.
-- Explain Retrieval-Augmented Generation.
-- Summarize papers related to Explainable AI.
-- Extract keywords from this paper.
-- Identify important entities from this research.
-- Recommend papers similar to BERT.
+---
+
+### 🔍 Query 1
+
+**User Prompt**
+
+> Find the top 3 research papers on Vision Transformers and summarize each of them.
+
+**Sample Response**
+
+```
+Top 3 Relevant Papers
+
+1. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+Similarity Score: 0.91
+
+Summary:
+Introduced the Vision Transformer (ViT), demonstrating that transformer architectures can outperform convolutional networks for image classification when trained on large-scale datasets.
+
+----------------------------------------------------
+
+2. Data-efficient Image Transformers (DeiT)
+Similarity Score: 0.88
+
+Summary:
+Improves Vision Transformer training efficiency using knowledge distillation and reduced computational requirements.
+
+----------------------------------------------------
+
+3. Swin Transformer
+Similarity Score: 0.86
+
+Summary:
+Introduces hierarchical vision transformers using shifted windows for efficient and scalable computer vision tasks.
+```
+
+---
+
+### 🏷 Query 2
+
+**User Prompt**
+
+> Extract the top five keywords from research papers related to Deep Learning for Medical Image Reconstruction.
+
+**Sample Response**
+
+```
+Top Keywords
+
+• Deep Learning
+• Medical Imaging
+• MRI Reconstruction
+• Image Restoration
+• Convolutional Neural Networks
+
+Detected Research Areas
+
+✓ Computer Vision
+✓ Medical AI
+✓ Image Processing
+```
+
+---
+
+### ⚖ Query 3
+
+**User Prompt**
+
+> Compare a research paper on Vision Transformers with a research paper on Convolutional Neural Networks.
+
+**Sample Response**
+
+| Feature | Vision Transformer | Convolutional Neural Network |
+|---------|--------------------|------------------------------|
+| Architecture | Transformer-based | Convolution-based |
+| Data Requirement | Large datasets | Moderate datasets |
+| Global Context | Excellent | Limited receptive field |
+| Computational Cost | Higher | Lower |
+| Performance | State-of-the-art on many benchmarks | Strong baseline for many tasks |
+
+**AI Insight**
+
+Vision Transformers generally achieve higher accuracy on large datasets due to their ability to model global relationships. CNNs remain computationally efficient and continue to perform exceptionally well when training data is limited.
+
+---
+
+### 🤖 Query 4
+
+**User Prompt**
+
+> Explain Vision Transformers in simple language.
+
+**Sample Response**
+
+```
+Vision Transformers divide an image into small patches and process them similarly to words in a sentence. Instead of using convolution filters, they rely on self-attention mechanisms to understand relationships between different parts of the image, enabling them to capture global information effectively.
+```
+
+---
+
+### 📄 Query 5
+
+**User Prompt**
+
+> Recommend research papers similar to "Attention Is All You Need".
+
+**Sample Response**
+
+```
+Recommended Papers
+
+1. BERT: Pre-training of Deep Bidirectional Transformers
+Similarity Score: 0.90
+
+2. GPT: Improving Language Understanding
+Similarity Score: 0.88
+
+3. Vision Transformer
+Similarity Score: 0.86
+
+Reason:
+These papers build upon transformer architectures and extend self-attention mechanisms to different domains, including language understanding and computer vision.
+```
 
 ---
 
