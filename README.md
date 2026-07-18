@@ -1,19 +1,6 @@
 # 🧠 Synthesa – Agentic AI Research Assistant
 
-<p align="center">
-  <img src="assets/banner.png" alt="Synthesa Banner" width="100%">
-</p>
-
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![LangChain](https://img.shields.io/badge/LangChain-Agent-green)
-![Groq](https://img.shields.io/badge/Groq-LLM-orange)
-![FAISS](https://img.shields.io/badge/FAISS-VectorDB-red)
-![NLP](https://img.shields.io/badge/NLP-Semantic%20Search-purple)
-![License](https://img.shields.io/badge/License-MIT-blue)
-
-</p>
+<img width="1600" height="639" alt="WhatsApp Image 2026-07-18 at 22 58 58" src="https://github.com/user-attachments/assets/de9effdf-d903-4f34-bb0e-b3f58de94867" />
 
 ---
 
